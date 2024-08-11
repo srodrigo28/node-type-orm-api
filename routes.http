@@ -1,0 +1,36 @@
+POST http://localhost:8080/videos
+Content-Type: application/json
+
+{
+    "title": "HTML5 essencial",
+    "description": "Aprendendo HTML5 nivel 1",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:8080
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/videos?search=HTML5
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8080/videos/422436a5-4d57-4068-8e52-99d6f94db060
+Content-Type: application/json
+
+{
+    "title": "HTML5 essencial",
+    "description": "Aprendendo HTML5 e CSS3 nivel 1",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:8080/videos/422436a5-4d57-4068-8e52-99d6f94db060
+Content-Type: application/json
+
+###

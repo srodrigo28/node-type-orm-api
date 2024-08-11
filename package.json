@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "```\r https://www.youtube.com/watch?v=hHM-hr9q4mo\r ```",
   "main": "server.js",
+  "start": "node --watch server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,5 +11,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
 }
